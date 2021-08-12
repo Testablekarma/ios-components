@@ -104,6 +104,8 @@ public extension UIColor {
                 return colorContainer.pink
             case .yellow:
                 return colorContainer.yellow
+            default:
+                return colorContainer.yellow
             }
         }
     }
