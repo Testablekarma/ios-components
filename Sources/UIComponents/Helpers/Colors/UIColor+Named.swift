@@ -104,8 +104,22 @@ public extension UIColor {
                 return colorContainer.pink
             case .yellow:
                 return colorContainer.yellow
-            default:
-                return colorContainer.yellow
+            case .vawgRed1:
+                return colorContainer.vawgRed1
+            case .vawgRed2:
+                return colorContainer.vawgRed2
+            case .vawgBlue1:
+                return colorContainer.vawgBlue1
+            case .vawgBlue2:
+                return colorContainer.vawgBlue2
+            case .vawgOrange1:
+                return colorContainer.vawgOrange1
+            case .vawgOrange2:
+                return colorContainer.vawgOrange2
+            case .vawgTeal1:
+                return colorContainer.vawgTeal1
+            case .vawgTeal2:
+                return colorContainer.vawgTeal2
             }
         }
     }
