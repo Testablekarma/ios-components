@@ -66,13 +66,13 @@ extension UIColor {
         open var menuPageBackground = UIColor.Named.white.raw
         open var divider = UIColor.Named.grey2.raw
         open var insetBar = UIColor.Named.grey2.raw
-        open var primaryButtonBackground = UIColor.Named.green1.raw
+        open var primaryButtonBackground = UIColor.Named.vawgBlue1.raw
         open var primaryButtonDisabledBackground = UIColor.Named.grey1.raw
         open var primaryButtonDisabledText = UIColor.Named.white.raw
-        open var primaryButtonHighlightedBackground = UIColor.Named.green1.raw.lighten(0.16)
+        open var primaryButtonHighlightedBackground = UIColor.Named.vawgBlue1.raw.lighten(0.16)
         open var primaryButtonText = UIColor.Named.white.raw
-        open var primaryButtonHighlightedBaseline = UIColor.Named.green1.raw.darken(0.24)
-        open var primaryButtonBaseline = UIColor.Named.green1.raw.darken(0.4)
+        open var primaryButtonHighlightedBaseline = UIColor.Named.vawgBlue1.raw.darken(0.24)
+        open var primaryButtonBaseline = UIColor.Named.vawgBlue1.raw.darken(0.4)
         open var statusCardIconDefaultTint = UIColor.Named.grey1.raw
         open var switchTint = UIColor.Named.blue.raw
         open var switchTintSelected = UIColor.Named.blue.raw.lighten(0.16)

@@ -29,12 +29,30 @@ public protocol NamedColors {
     var grey3: UIColor { get set }
     var pink: UIColor { get set }
     var yellow: UIColor { get set }
+    
+    var vawgRed1: UIColor { get set }
+    var vawgRed2: UIColor { get set }
+    var vawgBlue1: UIColor { get set }
+    var vawgBlue2: UIColor { get set }
+    var vawgOrange1: UIColor { get set }
+    var vawgOrange2: UIColor { get set }
+    var vawgTeal1: UIColor { get set }
+    var vawgTeal2: UIColor { get set }
 }
 
 extension UIColor {
     open class DarkColors: NamedColors {
         
         public init() {}
+        
+        open var vawgRed1 = UIColor(hexString: "#8F2D56")
+        open var vawgRed2 = UIColor(hexString: "#AE3769")
+        open var vawgBlue1 = UIColor(hexString: "#2274A5")
+        open var vawgBlue2 = UIColor(hexString: "#288CC5")
+        open var vawgOrange1 = UIColor(hexString: "#F58549")
+        open var vawgOrange2 = UIColor(hexString: "#F7935E")
+        open var vawgTeal1 = UIColor(hexString: "#1C8393")
+        open var vawgTeal2 = UIColor(hexString: "#24A7BB")
         
         open var black = UIColor(hexString: "#FFFFFF")
         open var white = UIColor(hexString: "#262626")
@@ -53,6 +71,15 @@ extension UIColor {
     open class LightColors: NamedColors {
         
         public init() {}
+        
+        open var vawgRed1 = UIColor(hexString: "#8F2D56")
+        open var vawgRed2 = UIColor(hexString: "#AE3769")
+        open var vawgBlue1 = UIColor(hexString: "#2274A5")
+        open var vawgBlue2 = UIColor(hexString: "#288CC5")
+        open var vawgOrange1 = UIColor(hexString: "#F58549")
+        open var vawgOrange2 = UIColor(hexString: "#F7935E")
+        open var vawgTeal1 = UIColor(hexString: "#1C8393")
+        open var vawgTeal2 = UIColor(hexString: "#24A7BB")
         
         open var black = UIColor(hexString: "#0B0C0C")
         open var white = UIColor(hexString: "#FFFFFF")
