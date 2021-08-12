@@ -78,7 +78,7 @@ extension UIColor {
         open var switchTintSelected = UIColor.Named.blue.raw.lighten(0.16)
         open var textInputBorder = UIColor.Named.grey1.raw
         open var textInputLeftViewTint = UIColor.Named.grey1.raw
-        open var secondaryButtonText = UIColor.Named.blue.raw
+        open var secondaryButtonText = UIColor.Named.vawgRed1.raw
         open var secondaryButtonBackground = UIColor.clear
         open var secondaryButtonHighlightedBackground = UIColor.Named.blue.raw.lighten(0.84)
         open var whiteBackground = UIColor.Named.white.raw
