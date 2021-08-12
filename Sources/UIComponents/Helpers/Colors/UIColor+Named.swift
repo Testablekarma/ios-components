@@ -36,7 +36,16 @@ public extension UIColor {
              grey2,
              grey3,
              pink,
-             yellow
+             yellow,
+             vawgRed1,
+             vawgRed2,
+             vawgBlue1,
+             vawgBlue2,
+             vawgOrange1,
+             vawgOrange2,
+             vawgTeal1,
+             vawgTeal2
+        
 
         public static var allColors: [(String, UIColor)] {
             return allCases.map { ($0.rawValue, $0.raw) }
