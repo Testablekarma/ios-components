@@ -444,7 +444,7 @@
 			repositoryURL = "file:///Users/markwebb/Repositories/Personal/ios-components";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1628855731.0.0;
+				minimumVersion = 1628855896.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
