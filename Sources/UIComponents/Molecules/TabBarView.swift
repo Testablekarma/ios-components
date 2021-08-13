@@ -149,7 +149,7 @@ extension Components.Molecules {
                 $0.delegate = self
                 self.stackView.addArrangedSubview($0)
             }
-            scrollView.backgroundColor = model.theme == .dark ? UIColor.Named.black.raw : UIColor.Named.white.raw
+            scrollView.backgroundColor = .clear
         }
 
         public override init(frame: CGRect) {
