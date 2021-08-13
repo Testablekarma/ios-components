@@ -46,7 +46,7 @@ extension UIColor {
         public init() {}
         
         open var vawgRed1 = UIColor(hexString: "#8F2D56")
-        open var vawgRed2 = UIColor(hexString: "#AE3769")
+        open var vawgRed2 = UIColor(hexString: "##CF6692")
         open var vawgBlue1 = UIColor(hexString: "#2274A5")
         open var vawgBlue2 = UIColor(hexString: "#288CC5")
         open var vawgOrange1 = UIColor(hexString: "#F58549")
