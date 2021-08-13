@@ -55,10 +55,10 @@ extension UIColor {
         
         open var darkText = UIColor.Named.black.raw
         open var lightText = UIColor.Named.white.raw
-        open var linkText = UIColor.Named.blue.raw
+        open var linkText = UIColor.Named.vawgRed1.raw
         open var errorText = UIColor.Named.red.raw
         open var infoText = UIColor.Named.grey1.raw
-        open var expandableButtonText = UIColor.Named.vawgOrange1.raw
+        open var expandableButtonText = UIColor.Named.vawgRed1.raw
         open var cardBackground = UIColor.Named.white.raw
         open var cardShadow = UIColor.Named.grey3.raw.darken(0.08)
         open var pageBackground = UIColor.Named.grey3.raw
@@ -90,10 +90,10 @@ extension UIColor {
         
         open var darkText = UIColor.Named.black.raw
         open var lightText = UIColor.Named.white.raw
-        open var linkText = UIColor.Named.blue.raw
+        open var linkText = UIColor.Named.vawgRed2.raw
         open var errorText = UIColor.Named.red.raw
         open var infoText = UIColor.Named.grey1.raw
-        open var expandableButtonText = UIColor.Named.vawgOrange2.raw
+        open var expandableButtonText = UIColor.Named.vawgRed2.raw
         open var cardBackground = UIColor.Named.white.raw
         open var cardShadow = UIColor.clear
         open var pageBackground = UIColor.Named.grey3.raw
