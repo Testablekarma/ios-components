@@ -234,19 +234,10 @@ extension Components.Molecules {
         private func configureTheme(theme: TabBarView.Model.Theme) {
             titleLabel?.font = UIFont.bold()
 
-            switch theme {
-            case .dark:
-                setTitleColor(UIColor.Named.white.raw, for: .selected)
-                setTitleColor(UIColor.Named.grey2.raw, for: .normal)
-                backgroundColor = UIColor.Named.black.raw
-                highlightView.backgroundColor = UIColor.Named.white.raw
-
-            case .light:
-                setTitleColor(UIColor.Named.blue.raw, for: .selected)
-                setTitleColor(UIColor.Named.grey1.raw, for: .normal)
-                backgroundColor = UIColor.Named.white.raw
-                highlightView.backgroundColor = UIColor.Named.blue.raw
-            }
+            setTitleColor(UIColor.Semantic.secondaryButtonText.raw, for: .selected)
+            setTitleColor(UIColor.Named.grey2.raw, for: .normal)
+            highlightView.backgroundColor = UIColor.Semantic.secondaryButtonText.raw
+            backgroundColor = .clear
         }
 
         func update(isSelected: Bool) {

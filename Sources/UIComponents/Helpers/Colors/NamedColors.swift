@@ -90,7 +90,7 @@ extension UIColor {
         open var red = UIColor(hexString: "#D4351C")
         open var grey1 = UIColor(hexString: "#505A5F")
         open var grey2 = UIColor(hexString: "#B1B4B6")
-        open var grey3 = UIColor(hexString: "#F3F2F1")
+        open var grey3 = UIColor(hexString: "#EBEBEB")
         open var pink = UIColor(hexString: "#D53880")
         open var yellow = UIColor(hexString: "#FFBF47")
     }
