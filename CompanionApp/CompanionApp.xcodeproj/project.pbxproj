@@ -443,8 +443,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "file:///Users/markwebb/Repositories/Personal/ios-components";
 			requirement = {
-				kind = revision;
-				revision = 4839af268ccbba34be22054412ad35979397c2c0;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1628855255.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
