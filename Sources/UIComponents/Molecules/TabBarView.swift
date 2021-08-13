@@ -235,7 +235,7 @@ extension Components.Molecules {
             titleLabel?.font = UIFont.bold()
 
             setTitleColor(UIColor.Semantic.secondaryButtonText, for: .selected)
-            setTitleColor(UIColor.Named.grey2.raw, for: .normal)
+            setTitleColor(UIColor.Named.grey1.raw, for: .normal)
             highlightView.backgroundColor = UIColor.Semantic.secondaryButtonText
             backgroundColor = .clear
         }
